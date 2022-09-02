@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -13,9 +16,29 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*Button btnMemoria = (Button) findViewById(R.id.memoria);
+        Button btnMemoria = (Button) findViewById(R.id.memoria);
         btnMemoria.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this,Activity_3_en_Raya.class);
+
+            ArrayList<String> letrasMemoria = new ArrayList<>();
+            letrasMemoria.add("A");
+            letrasMemoria.add("B");
+            letrasMemoria.add("C");
+            letrasMemoria.add("D");
+            letrasMemoria.add("E");
+            letrasMemoria.add("F");
+            letrasMemoria.add("G");
+            letrasMemoria.add("H");
+
+            ArrayList<String> letritas = new ArrayList<>();
+            for(String letras : letrasMemoria){
+                letritas.add(letras);
+                letritas.add(letras);
+            }
+
+            Collections.shuffle(letritas);
+
+            intent.putExtra("letras",letritas);
             startActivity(intent);
         });
 
@@ -23,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         btntresRayas.setOnClickListener(view -> {
             Intent intent1 = new Intent(MainActivity.this,Activity_2_memoria.class);
             startActivity(intent1);
-        });*/
+        });
 
 
     }

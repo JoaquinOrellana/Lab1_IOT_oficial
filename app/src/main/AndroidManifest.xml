@@ -15,7 +15,8 @@
         tools:targetApi="31">
         <activity
             android:name=".Activity_2_memoria"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Activity_3_en_Raya"
             android:exported="false"
