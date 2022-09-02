@@ -86,6 +86,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
         </LinearLayout>
 
@@ -176,6 +177,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
 
             <Button
@@ -200,6 +202,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
         </LinearLayout>
     </LinearLayout>
