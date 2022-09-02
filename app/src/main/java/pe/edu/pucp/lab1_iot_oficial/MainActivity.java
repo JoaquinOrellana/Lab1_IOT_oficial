@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 
 import java.util.ArrayList;
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             Collections.shuffle(letritas);
-
+            Log.d("msg",letritas.toString());
             intent.putExtra("letras",letritas);
             startActivity(intent);
         });

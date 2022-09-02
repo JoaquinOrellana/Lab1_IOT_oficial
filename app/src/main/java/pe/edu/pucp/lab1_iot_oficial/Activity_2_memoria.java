@@ -17,7 +17,7 @@ public class Activity_2_memoria extends AppCompatActivity {
         setContentView(R.layout.activity_activity2_memoria);
 
         Intent intent = this.getIntent();
-        ArrayList<String> letras = intent.getStringArrayListExtra("letras");
+        ArrayList<String> letras = (ArrayList<String>) intent.getStringArrayListExtra("letras");
         Button[] botones = new Button[16];
 
         int[] botonesID = {R.id.btn1,R.id.btn2,R.id.btn3,R.id.btn4,R.id.btn5,R.id.btn6,R.id.btn7,R.id.btn8,R.id.btn9,R.id.btn10,R.id.btn11,R.id.btn12,R.id.btn13,R.id.btn14,R.id.btn15,R.id.btn16};
