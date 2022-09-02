@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnMemoria = (Button) findViewById(R.id.memoria);
         btnMemoria.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this,Activity_3_en_Raya.class);
+            Intent intent = new Intent(MainActivity.this,Activity_2_memoria.class);
 
             ArrayList<String> letrasMemoria = new ArrayList<>();
             letrasMemoria.add("A");
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button btntresRayas = (Button) findViewById(R.id.tresRayas);
         btntresRayas.setOnClickListener(view -> {
-            Intent intent1 = new Intent(MainActivity.this,Activity_2_memoria.class);
+            Intent intent1 = new Intent(MainActivity.this,Activity_3_en_Raya.class);
             startActivity(intent1);
         });
 

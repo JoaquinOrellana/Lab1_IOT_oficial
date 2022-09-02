@@ -25,17 +25,17 @@ public class Activity_2_memoria extends AppCompatActivity {
         for(int i=0;i<botonesID.length;i++){
             botones[i] = (Button) findViewById(botonesID[i]);
             Button botoncito = botones[i];
-            botoncito.setText(letras.get(i));
+            botoncito.setText(String.valueOf(letras.get(i)));
         }
 
 
-        Handler handler = new Handler();
+        /*Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
                 metodoaEjecutarPasadoUnsegundo();
             }
-        }, 1000);
+        }, 1000);*/
 
 
 
