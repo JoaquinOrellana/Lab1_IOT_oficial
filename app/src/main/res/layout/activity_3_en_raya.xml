@@ -6,4 +6,129 @@
     android:layout_height="match_parent"
     tools:context=".Activity_3_en_Raya">
 
+    <Button
+        android:id="@+id/buttonNuevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuevo"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEstadisticas"
+        app:layout_constraintEnd_toEndOf="@+id/buttonEstadisticas" />
+
+    <Button
+        android:id="@+id/buttonEstadisticas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:text="Estadisticas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="134dp" />
+
+    <TextView
+        android:id="@+id/Text3raya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="111dp"
+        android:text="Tres en raya"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/casilla1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="174dp"
+        android:onClick="actualizarEstado1erJugadorCasilla1"
+        android:text="----"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/casilla2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:onClick="actualizarEstado1erJugadorCasilla1"
+        android:text="----"
+        app:layout_constraintEnd_toEndOf="@+id/Text3raya"
+        app:layout_constraintStart_toStartOf="@+id/Text3raya"
+        app:layout_constraintTop_toBottomOf="@+id/Text3raya" />
+
+    <TextView
+        android:id="@+id/casilla3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="152dp"
+        android:onClick="actualizarEstado1erJugadorCasilla1"
+        android:text="----"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/casilla4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="28dp"
+        android:onClick="actualizarEstado1erJugadorCasilla1"
+        android:text="----"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/casilla1" />
+
+    <TextView
+        android:id="@+id/casilla6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="152dp"
+        android:onClick="actualizarEstado1erJugadorCasilla1"
+        android:text="----"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/casilla3" />
+
+    <TextView
+        android:id="@+id/casilla7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="33dp"
+        android:onClick="actualizarEstado1erJugadorCasilla1"
+        android:text="----"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/casilla4" />
+
+    <TextView
+        android:id="@+id/casilla9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="151dp"
+        android:onClick="actualizarEstado1erJugadorCasilla1"
+        android:text="----"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/casilla6" />
+
+    <TextView
+        android:id="@+id/casilla5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:onClick="actualizarEstado1erJugadorCasilla1"
+        android:text="----"
+        app:layout_constraintEnd_toEndOf="@+id/casilla2"
+        app:layout_constraintStart_toStartOf="@+id/casilla2"
+        app:layout_constraintTop_toBottomOf="@+id/casilla2" />
+
+    <TextView
+        android:id="@+id/casilla8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="actualizarEstado1erJugadorCasilla1"
+        android:text="----"
+        app:layout_constraintEnd_toEndOf="@+id/casilla5"
+        app:layout_constraintStart_toStartOf="@+id/casilla5"
+        app:layout_constraintTop_toBottomOf="@+id/casilla5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
