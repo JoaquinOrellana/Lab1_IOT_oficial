@@ -14,32 +14,37 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.083" />
+        app:layout_constraintVertical_bias="0.023" />
 
     <Button
         android:id="@+id/btnEstadisticas"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="mostrarEstadisticas"
         android:text="Estadísticas"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.895"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnNuevo" />
+        app:layout_constraintTop_toBottomOf="@+id/btnNuevo"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/btnNuevo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:onClick="correrJuegoMemoriaAgain"
         android:text="Nuevo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.19"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.417" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -62,6 +67,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
 
             <Button
@@ -70,6 +76,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
 
             <Button
@@ -78,6 +85,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
 
             <Button
@@ -101,6 +109,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
 
             <Button
@@ -109,6 +118,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
 
             <Button
@@ -117,6 +127,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
 
             <Button
@@ -125,6 +136,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
         </LinearLayout>
 
@@ -139,6 +151,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
 
             <Button
@@ -147,6 +160,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
 
             <Button
@@ -155,6 +169,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
 
             <Button
@@ -163,6 +178,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
         </LinearLayout>
 
@@ -186,6 +202,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
 
             <Button
@@ -194,6 +211,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:onClick="extraerLetraBoton"
                 android:text="Button" />
 
             <Button
@@ -206,4 +224,13 @@
                 android:text="Button" />
         </LinearLayout>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/mostrarTiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btnNuevo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 </androidx.constraintlayout.widget.ConstraintLayout>
