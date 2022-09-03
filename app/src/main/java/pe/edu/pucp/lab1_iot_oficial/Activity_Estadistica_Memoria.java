@@ -27,6 +27,8 @@ public class Activity_Estadistica_Memoria extends AppCompatActivity {
     public void NuevoJuegoMemoria(View view){
         Intent intent5 = new Intent(Activity_Estadistica_Memoria.this,Activity_2_memoria.class);
         startActivity(intent5);
+
+
     }
 
 }
