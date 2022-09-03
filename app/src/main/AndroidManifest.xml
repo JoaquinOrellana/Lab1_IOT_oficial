@@ -14,9 +14,12 @@
         android:theme="@style/Theme.Lab1_IOT_oficial"
         tools:targetApi="31">
         <activity
+            android:name=".Activity_Estadisticas_3_en_Raya"
+            android:exported="false" />
+        <activity
             android:name=".Activity_Estadistica_Memoria"
             android:exported="false"
-            android:parentActivityName=".Activity_2_memoria"/>
+            android:parentActivityName=".Activity_2_memoria" />
         <activity
             android:name=".Activity_2_memoria"
             android:exported="false"

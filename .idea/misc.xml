@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Alonso/AndroidStudioProjects/Lab1_IOT_oficial/app/src/main/res/layout/activity_activity2_memoria.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Alonso/AndroidStudioProjects/Lab1_IOT_oficial/app/src/main/res/layout/activity_estadistica_memoria.xml" value="0.36666666666666664" />
+        <entry key="..\:/PUCP22-2/IOT/LABS/LAB1/Lab1_IOT_oficial/app/src/main/res/layout/activity_3_en_raya.xml" value="0.5" />
+        <entry key="..\:/PUCP22-2/IOT/LABS/LAB1/Lab1_IOT_oficial/app/src/main/res/layout/activity_activity2_memoria.xml" value="0.33" />
+        <entry key="..\:/PUCP22-2/IOT/LABS/LAB1/Lab1_IOT_oficial/app/src/main/res/layout/activity_estadistica_memoria.xml" value="0.36666666666666664" />
+        <entry key="..\:/PUCP22-2/IOT/LABS/LAB1/Lab1_IOT_oficial/app/src/main/res/layout/activity_estadisticas3_en_raya.xml" value="0.33" />
         <entry key="..\:/Users/Labtel/StudioProjects/Lab1Viernes/app/src/main/res/layout/activity_activity2_memoria.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Labtel/StudioProjects/Lab1Viernes/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Labtel/StudioProjects/Lab1_IOT_oficial/app/src/main/res/layout/activity_activity2_memoria.xml" value="0.33" />
